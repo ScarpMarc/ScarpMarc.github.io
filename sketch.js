@@ -144,6 +144,7 @@ function getSingleShape(zmod) {
 function draw() {
   if (refresh) {
     clear();
+    background("#1c1c1c");
     refresh = false;
   }
   
