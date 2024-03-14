@@ -143,7 +143,6 @@ function getSingleShape(zmod) {
 }
 function draw() {
   if (refresh) {
-    clear();
     background("#1c1c1c");
     refresh = false;
   }
@@ -239,7 +238,6 @@ function draw() {
   text("(Spacebar to change text mode)", 0, height/2 - 10);
   
   if (initialRefresh > 0) {
-    clear();
     background("#1c1c1c");
 
     --initialRefresh;
